@@ -1,7 +1,7 @@
 require("lazy").setup({
 
-    { require("foxy.plugins.noice") },
     -- { require("foxy.plugins.mini-starter") },
+    { require("foxy.plugins.noice") },
     { require("foxy.plugins.which-key") },
     { require("foxy.plugins.neo-tree") },
     { require("foxy.plugins.telescope") },

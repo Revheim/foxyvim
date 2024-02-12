@@ -55,7 +55,7 @@ return { "hrsh7th/nvim-cmp",
         sources = cmp.config.sources({
           { name = 'nvim_lsp' },
           { name = 'luasnip' },
-          { name='buffer' },
+          { name = 'buffer' },
           { name = 'path' },
         -- }, {
         })
@@ -64,7 +64,7 @@ return { "hrsh7th/nvim-cmp",
       local capabilities = require('cmp_nvim_lsp').default_capabilities()
       require('lspconfig')['clangd'].setup {
         capabilities = capabilities
-      }
+      } 
 
       opts.mapping = vim.tbl_extend("force", opts.mapping, {
         ["<Tab>"] = cmp.mapping(function(fallback)
