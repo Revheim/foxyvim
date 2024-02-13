@@ -1,10 +1,9 @@
 return {
-  { "rebelot/kanagawa.nvim", },
+    { "rebelot/kanagawa.nvim", },
     { "LazyVim/LazyVim",
-      event = "VeryLazy",
-      opts = {
-      colorscheme = "kanagawa-wave",
+        event = "VeryLazy",
+        opts = {
+            colorscheme = "kanagawa-wave",
+        },
     },
-  },
 }
-

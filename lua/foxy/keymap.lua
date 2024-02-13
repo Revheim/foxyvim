@@ -49,3 +49,9 @@ vim.keymap.set("n", "<C-j>", "<cmd>wincmd j<cr>", {desc = "Switch to window belo
 vim.keymap.set("n", "<C-k>", "<cmd>wincmd k<cr>", {desc = "Switch to window above"})
 vim.keymap.set("n", "<C-l>", "<cmd>wincmd l<cr>", {desc = "Switch to window right"})
 
+-- codeium
+vim.keymap.set('i', '<C-g>', function() return vim.fn['codeium#Accept']() end, { expr = true, silent = true })
+vim.keymap.set('i', '<C-ø>', function() return vim.fn['codeium#CycleCompletions'](1) end, { expr = true, silent = true })
+vim.keymap.set('i', '<C-æ>', function() return vim.fn['codeium#CycleCompletions'](-1) end, { expr = true, silent = true })
+vim.keymap.set('i', '<C-x>', function() return vim.fn['codeium#Clear']() end, { expr = true, silent = true })
+  
