@@ -1,5 +1,5 @@
 return { "stevearc/aerial.nvim",
-  event = "VeryLazy",
+  -- event = "VeryLazy",
   opts = function()
     local icons = vim.deepcopy(Config.icons.kinds)
     icons.lua = { Package = icons.Control }

@@ -1,7 +1,8 @@
 require("lazy").setup({
 
-    -- { require("foxy.plugins.mini-starter") },
     { "nvim-tree/nvim-web-devicons", },
+
+    { require("foxy.plugins.alpha-nvim") },
     { require("foxy.plugins.noice") },
     { require("foxy.plugins.which-key") },
     { require("foxy.plugins.neo-tree") },
@@ -11,14 +12,26 @@ require("lazy").setup({
     { require("foxy.plugins.treesitter") },
     { require("foxy.plugins.luasnip") },
     { require("foxy.plugins.nvim-cmp") },
+
     -- { require("foxy.plugins.autopairs") },
     -- { require("foxy.plugins.harpoon") },
+    
+    { require("foxy.plugins.dressing") },
     { require("foxy.plugins.codeium") },
+    { require("foxy.plugins.ollama") },
+    { require("foxy.plugins.todo") },
 
+    { "ibhagwan/fzf-lua", },
+    { "Bekaboo/dropbar.nvim", },
+
+    -- { "tpope/vim-commentary", },
+    -- { "folke/twilight.nvim", },
+    
     { require("foxy.plugins.statuscol") },
     { require("foxy.plugins.gitsigns") },
     { require("foxy.plugins.colors") },
     { require("foxy.plugins.lualine") },
+
     -- { require("foxy.plugins.mini-animate") },
     -- { require("foxy.plugins.aerial") },
 
