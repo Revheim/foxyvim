@@ -5,8 +5,7 @@ require("foxy.keymap")
 require("foxy.plugins")
 require("foxy.setbg")
 
-require('neoscroll').setup()
--- require('cmp').setup()
+-- require('neoscroll').setup()
 
 -- vim.api.nvim_create_augroup('AutoFormatting', {})
 -- vim.api.nvim_create_autocmd('BufWritePre', {
