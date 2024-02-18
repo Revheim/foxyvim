@@ -21,9 +21,15 @@ require("lazy").setup({
     { require("foxy.plugins.todo") },
     { require("foxy.plugins.neoscroll") },
 
+    { "kdheepak/lazygit.nvim", },
     { "ibhagwan/fzf-lua", },
     { "Bekaboo/dropbar.nvim", },
-
+    { "terrortylor/nvim-comment",  
+        event = "VeryLazy",
+        opts = {
+            require("nvim-comment").setup(),
+        },
+    },
     -- { "tpope/vim-commentary", },
     -- { "folke/twilight.nvim", },
     
