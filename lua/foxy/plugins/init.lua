@@ -14,7 +14,7 @@ require("lazy").setup({
     { require("foxy.plugins.nvim-cmp") },
 
     -- { require("foxy.plugins.autopairs") },
-    -- { require("foxy.plugins.harpoon") },
+    { require("foxy.plugins.harpoon") },
     
     { require("foxy.plugins.codeium") },
     { require("foxy.plugins.ollama") },
