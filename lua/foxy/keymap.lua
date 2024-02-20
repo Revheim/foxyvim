@@ -42,6 +42,7 @@ vim.keymap.set("v", "<A-k>", ":m '<-2<cr>gv=gv", { desc = "Move up" })
 vim.keymap.set("n", "<leader>,", "<cmd>e #<cr>", { desc = "Switch to Other Buffer" })
 vim.keymap.set("n", "<leader><leader>", "<cmd>Telescope buffers<cr>", { desc = "Switch to Other Buffer" })
 vim.keymap.set("n", "<leader>tf", "<cmd>Telescope current_buffer_fuzzy_find<cr>", { desc = "Search current buffer" })
+vim.keymap.set("n", "<leader>tg", "<cmd>Telescope grep_string<cr>", { desc = "Search current buffer" })
 
 -- windows
 vim.keymap.set("n", "<leader>wr", "<C-W>r", { desc = "Rotate windows", remap = true })

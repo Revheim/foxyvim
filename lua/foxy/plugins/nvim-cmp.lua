@@ -19,7 +19,7 @@ return { "hrsh7th/nvim-cmp",
 
       cmp.setup({
         experimental = {
-            ghost_text = true,
+            -- ghost_text = true,
             native_menu = false,
         },
         snippet = {
@@ -35,7 +35,7 @@ return { "hrsh7th/nvim-cmp",
             vim_item.menu = ({
               -- luasnip = "[LuaSnip]",
               buffer = "[Buffer]",
-              path = "[Path]",
+              -- path = "[Path]",
             })[entry.source.name]
             return vim_item
           end,
@@ -56,7 +56,7 @@ return { "hrsh7th/nvim-cmp",
           { name = 'nvim_lsp' },
           -- { name = 'luasnip' },
           { name = 'buffer' },
-          { name = 'path' },
+          -- { name = 'path' },
         -- }, {
         })
       })
